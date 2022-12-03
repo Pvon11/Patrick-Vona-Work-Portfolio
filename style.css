@@ -1,0 +1,68 @@
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: aquamarine;
+  }
+
+  header {
+    display:  flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #d8a47f;
+    color:blueviolet;
+    font-size: larger;
+  
+    
+  }
+  nav a {
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  }
+
+  .about-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 10px 0;
+  }
+
+.projects {
+    padding-left: 50%;
+    color: blueviolet;
+    border: 2in;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+@media screen and (max-width: 992px) {
+    header {
+      background: #772014;
+    }
+  }
+  
+ 
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: lightpink;
+    }
+  }
+  
+  
+  @media screen and (max-width: 576px) {
+    .Project1 {
+      color: #8ac4ff;
+    }
+  }
