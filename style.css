@@ -1,6 +1,7 @@
 * {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+    
   }
 
   header {
@@ -33,12 +34,19 @@
     flex-wrap: wrap;
     margin: 20px 0;
     padding: 10px 0;
+    font-size: 150%;
   }
 
 .projects {
-    padding-left: 50%;
-    color: blueviolet;
-    border: 2in;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 10px 0;
+   
+    
+    
 }
 
 .footer {
