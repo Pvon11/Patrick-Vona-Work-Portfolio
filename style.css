@@ -39,20 +39,54 @@ nav a {
 
 .projects {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 20px 0;
+  margin: 25px 0;
   padding: 10px 0;
-  font-size: 125%
 
 
 
 }
+.projects > h2{
+  flex: 0 0 20%;
+
+}
+.projects > div{
+
+  flex: 0 0 80%;
+}
+
+.flex-item {
+  display: flex;
+  flex-direction: row;
+  padding: 50 px;
+  justify-content: space-between;
+  border-style: solid;
+  border-width: 25px;
+  border-color: darkgreen;
+  margin:  0;
+  
+  
+
+}
+.flex-item:first-child{
+  max-height: 150px;
+
+}
+
+
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
 
 .footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
 
