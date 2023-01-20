@@ -57,6 +57,12 @@ nav a {
   flex: 0 0 80%;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .flex-item {
   display: flex;
   flex-direction: row;
@@ -66,16 +72,22 @@ nav a {
   border-width: 25px;
   border-color: darkgreen;
   margin:  0;
-  
-  
-
 }
+
+
+
 .flex-item:first-child{
   max-height: 150px;
 
 }
 
+.flex-item {
+  background-image: url("./img/Horiseon.png");
+}
 
+.surf-report {
+  background-image: url("./img/Horiseon.png");
+}
 
 .contact {
   display: flex;
